@@ -9,7 +9,12 @@
 
 		/*초기화(reset,normalize)*/
 		html, h1,h2,h3, h4, h5, h6, div, p, ol, ul, li, blockquote
+
 		blockquote{padding: 0; padding-left: 20px; border-left: 3px solid #ccc;}
+		abbr {text-decoration: overline;}
+
+		.wrapper {width: 1000px; margin: auto;}
+		
 		.red  {color: red;}
 		.underline {text-decoration: underline}
 	
@@ -18,14 +23,16 @@
 <body>
 	<div class="wrapper">
 	<h1>H1 tag 입니다.</h1>
+	<h1>H1 tag 입니다.</h1>
 	<h2>H2 tag 입니다.</h2>
 	<h3>H3 tag 입니다.</h3>
 	<h4>H4 tag 입니다.</h4>
 	<h5>H5 tag 입니다.</h5>
 	<h6>H6 tag 입니다.</h6>
 	<p>본문입니다. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel optio cum perspiciatis enim id est blanditiis eum vitae autem neque modi saepe, veritatis nulla fuga. Nisi officia natus laudantium provident.</p>
+	
 	<p>
-		문장이 있는데
+		 문장이 있는데
 		 <span class="red underline">빨간색</span> 을 표현하고 싶어요.
 		 <span style="color: blue; text-decoration : underline ;">파란색</span>을 표현하고 싶어요.
 		<b>저는 굵은글씨 입니다.</b><br>
@@ -37,12 +44,34 @@
 		지금 문장에서 <sub> 저는 아래첨자 입니다.</sub> <br>
 		지금 문장에서 <sup> 저는 윗첨자 입니다.</sup> <br>
 	</p>
-	<p>
+
+
 		<h1>인용문</h1>
 		<blockquote cite="//naver.com">
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae officia harum, soluta inventore quaerat repellendus sequi? Eum tempora facilis ipsam itaque nisi iure earum fugit, recusandae aut est maiores id.
-		</blockquote>
-	</p>
+	<div>출처: <em>네이버</em> </div>	
+	</blockquote>
+	<h1>약어</h1>
+	<abbr title="Hyper Text Markup Language">HTML</abbr>
+	<h1>주소</h1>
+	<address>
+		서울시 마포구 서강로 3
+	</address>
+<h1>던밀스</h1>
+	<div>
+		 <img src="http://vismajorcompany.com/kor/main/" alt="던밀스">
+		<cite>출처:구글</cite>
+		</div>
+
+		<div>
+			<a href="http://google.com" target="_blank">
+			<img src="../img/던밀스.jpg" alt="던밀스">
+		</a>
+		</div>
+
+		<div>
+			<h2> class="title" </h2>
+		</div>
 </div>
 
 </body>
