@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
+/*font-family: 'Gaegu', cursive;*/
+
+@import './fonts/uto-godic.css';
+
+/*font-family: 'BBTreeGL','BBTreeGL';*/
+
+.wrapper {
+	height: auto;
+	overflow: visible;
+	max-width: 800px;
+	/*max-width: 1000px;*/
+	margin: 0 auto;
+	padding: 50px 0;
+	font-family: 'Gaegu', cursive;
+	color: rgb(56, 43, 43);
+}
+
+
+
+h1.title{
+	font-size: 26px;
+	padding: 16px;
+	text-align: center;
+	border-bottom: 1px solid #777;
+	}
+
+
+
+
+.box {
+padding: 16px;
+border: 5px solid blue;
+margin: 20px;
+color : rgb(19, 96, 141); 
+line-height: 1.5;
+letter-spacing: 5px;
+}
+
